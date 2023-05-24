@@ -1,4 +1,5 @@
 x,y,a,b,u=2,4,5,50,1245
+#Algum dos Operadores
 #Mais igual
 x +=2 #Equivale x=x+2
 #Menos igual

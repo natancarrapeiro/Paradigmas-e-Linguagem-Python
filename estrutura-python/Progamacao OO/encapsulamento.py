@@ -1,7 +1,7 @@
 class Conta:
     def __init__(self, numero, saldo):
-     self.__numero = numero
-     self.__saldo = saldo
+     self.__numero = numero#privadoa
+     self.__saldo = saldo#privado
 
     def depositar(self,valorDeposito):
       if( valorDeposito < self.__saldo):

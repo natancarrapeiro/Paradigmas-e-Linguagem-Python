@@ -11,6 +11,7 @@ class B(A):
         super().__init__(nome)
     def ola(self):
         print(self.nome) 
+        
 class C(A):
     def __init__(self, nome,sobrenome):
         self.sobrenome=sobrenome
